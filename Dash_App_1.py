@@ -43,10 +43,9 @@ random_y=np.random.randint(1,101,100)
 
 
 data['New Confirmed']=data['Confirmed'].diff()
-data['Deaths']=data['New Deaths'].diff()
-data['Recovered']=data['New Recovered'].diff()
+data['New Deaths']=data['Deaths'].diff()
+data['New Recovered']=data['New Recovered'].diff()
 data
-
 
 # In[224]:
 
