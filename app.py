@@ -28,6 +28,7 @@ import numpy as np
 
 
 app = dash.Dash()
+server = app.server
 
 
 # In[85]:
