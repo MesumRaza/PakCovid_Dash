@@ -2,7 +2,7 @@ dash_html_components==1.0.3
 dash_core_components==1.10.0
 dash==1.12.0
 plotly==4.4.1
-requests==2.22.0
+requests==2.31.0
 pandas==0.25.3
 numpy==1.18.4
 gunicorn==19.5.0
